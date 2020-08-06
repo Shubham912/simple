@@ -48,7 +48,7 @@ animation: jump 500ms ;
     position: absolute;
     left: 465px;
     bottom: 0;
-    animation: move 1s infinite linear;
+    animation: move 1.5s infinite linear;
 }
 
 @keyframes move{
