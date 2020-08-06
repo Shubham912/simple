@@ -12,7 +12,8 @@ body{
     height: 200px;
     width: 500px;
     border: 2px solid black;
-   // margin: 50px auto 50px auto;
+   margin: auto ;
+    margin-top: 200px;
    // box-sizing: border-box;
     position: relative;
 }
