@@ -20,7 +20,7 @@ var checkDead = setInterval(function(){
          block.style.animation = "none";
          block.style.display = "none";
          character.style.display = "none";
-         alert("you loose");
+         if(!alert('you loose')){window.location.reload();}
      }
 },10);
 
