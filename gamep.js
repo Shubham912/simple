@@ -23,3 +23,9 @@ var checkDead = setInterval(function(){
      }
 },10);
 
+var score = document.getElementById("score");
+score =0;
+setInterval(function(){
+     score+=1;
+     document.getElementById("score").innerHTML=score;
+ },1500);
