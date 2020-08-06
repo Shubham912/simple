@@ -19,6 +19,7 @@ var checkDead = setInterval(function(){
      if(blockLeft<30 && blockLeft>0 && characterTop>=120){
          block.style.animation = "none";
          block.style.display = "none";
+         character.style.display="none";
          alert("you loose");
      }
 },10);
